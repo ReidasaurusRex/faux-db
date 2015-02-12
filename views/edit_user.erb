@@ -1,0 +1,15 @@
+<form action="/users/:id" method="post">
+  <input type="hidden" name="_method" value="put">
+  
+  <input type="text" name="name" placeholder="<%= @current_user[:name] %>">
+
+  <input type="submit" value="Edit User">
+
+</form>
+
+<form action="/users/:id" method="post">
+  <input type="hidden" name="_method" value="delete">
+
+  <input type="submit" value="DELETE THIS USER">
+  
+</form>
