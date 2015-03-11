@@ -8,8 +8,6 @@ configure :development do
   BetterErrors.application_root = __dir__
 end
 
-
-
 # this will store your users
 users = []
 
